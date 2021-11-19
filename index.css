@@ -1,0 +1,291 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Slide-1 */
+.upper-container {
+  width: 55%;
+  height: 10%;
+  margin: 0px auto 30px;
+  position: relative;
+}
+.upper-container1 {
+  width: 50%;
+  height: 100%;
+  padding-top: 35px;
+}
+#task {
+  font-size: 8vh;
+  font-weight: bold;
+
+}
+#list {
+  font-size: 8vh;
+  margin-left: 10px;
+  opacity: 0.5;
+  
+}
+.upper-container2 {
+  width: 35%;
+  height: 100%;
+  padding-top: 40px;
+  padding-left: 50px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  
+}
+#addlist {
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 90px;
+  opacity: 0.5;
+  padding-top: 50px;
+  font-size: 3.5vh;
+}
+.card-container {
+  justify-content: space-between;
+  display: flex;
+  height: 45vh;
+  align-items: center;
+  margin: 0 AUTO;
+  width: 55%;
+}
+.card1 {
+  margin-top: 10px;
+  border: 1.5px solid #f78812;
+  box-shadow: 5px 5px 10px #ab6d23;
+  width: 15vw;
+  height: 40vh;
+  border-radius: 8px;
+  position: relative;
+  margin: 0px;
+}
+.div1 {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  font-size: 3vh;
+  width: 85%;
+  text-align: left;
+  height: 15%;
+  color: #f78812;
+  border-bottom: 1px solid #ab6d23;
+}
+.div2 {
+  width: 100%;
+  height: 10%;
+  font-size: 2.5vh;
+  color: #e02401;
+  text-align: right;
+  position: absolute;
+  top: 35%;
+  font-weight: bold;
+  text-decoration: 2px line-through;
+}
+.div3 {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  top: 52%;
+  text-align: left;
+  font-size: 2.5vh;
+  opacity: 0.8;
+}
+.todo-class {
+  width: 17px;
+  height: 17px;
+  margin-left: 9px;
+  margin-right: 6px;
+}
+
+
+/* Slide-2 */
+.container-heading{
+    position: relative;
+    
+}
+.trip-container {
+  margin: 0px auto 50px ;
+  height: 20%;
+  font-size: 3rem;
+  text-align: center;
+  width: 28%;
+  opacity: 0.8;
+  font-weight: bold;
+
+}
+
+.righthr{
+width: 15%;
+position: absolute;
+bottom: 25px;
+right: 190px;
+
+}
+.lefthr{
+width: 15%;
+position: absolute;
+left: 190px;
+bottom: 25px;
+}
+
+.back-container {
+    display: flex;
+    justify-content: center;
+  }
+#back {
+  font-size: 1.5rem;
+  margin-left: 10px;
+  opacity: 0.5;
+}
+.card4 {
+  margin: 35px auto 0px;
+  border: 1.5px solid #f78812;
+  box-shadow: 5px 5px 10px #ab6d23;
+  width: 30vw;
+  height: 45vh;
+  border-radius: 8px;
+  position: relative;
+  
+}
+.div4 {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  font-size: 3vh;
+  width: 68%;
+  text-align: left;
+  height: 15%;
+  color: #f78812;
+  border-bottom: 1px solid #ab6d23;
+}
+.div5 {
+  width: 100%;
+  height: 10%;
+  font-size: 3vh;
+  color: #e02401;
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  font-weight: bold;
+  text-decoration: 2px line-through;
+}
+.div6 {
+  width: 85%;
+  height: 10%;
+  position: absolute;
+  top: 52%;
+  text-align: center;
+  font-size: 2.5vh;
+  opacity: 0.9;
+  
+}
+.circle3{
+position: absolute;
+right: 12px;
+bottom: 12px;
+  
+}
+/* Slide-3 */
+
+.notshow{
+  position: relative;
+  filter: blur(6px);
+  -webkit-filterb:blue(6px);
+  
+}
+.pop-up{
+  position: absolute;
+  top: 37%;
+  right: 35%;
+  height: 25vh;
+  width: 30%;
+  border:1.5px solid #f78812;
+  border-radius: 10px;
+  color: #E02401;
+  box-shadow: 3px 3px 10px #ab6d23;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#add-new{
+  opacity: 0.7;
+  font-size:3vh;
+}
+.pop-upbar{
+  margin-top: 20px;
+  border-radius: 4px;
+  width: 85%;
+  height: 27%;
+  border: 1.5px solid #f78812;
+  box-shadow: 1px 1px 3px #ab6d23;
+}
+
+.pop-up-button{
+  width: 25%;
+  height: 20%;
+  margin-top:20px;
+  color: white;
+  background-color: #E02401;
+  border-radius: 20px;
+  border:none;
+}
+/* slide-4 */
+
+.notshow1{
+  position: relative;
+  filter: blur(6px);
+  -webkit-filterb:blue(6px);
+}
+.slide-1{
+  margin: 60px 0px 120px;
+}
+
+.anchor:hover {
+  background-color:#f78812;
+}
+.anchor{
+ text-align: center;
+ width: 40px;
+ margin: auto;
+ box-shadow: 1px 1px 3px #ab6d23;
+ border-radius: 75%;
+ display: inline-block;
+
+}
+.slide-2{
+  margin: 75px 0px 60px;
+}
+.Page-no{
+  display: inline-block;
+  font-size:31px ;
+  text-align: center;
+ width: 40px;
+ margin: auto;
+ box-shadow: 1px 1px 3px #ab6d23;
+ border-radius: 75%;
+ opacity: 0.8;
+ margin: 0px 10px 0px;
+}
+.anchortag{
+  width: 150px;
+  margin: auto;
+}
+.slide-3{
+  position: relative;
+  margin: 60px 0px 120px;
+
+ }
+ .slide-4{
+  position: relative;
+  margin: 75px 0px 60px;
+
+ 
+}
